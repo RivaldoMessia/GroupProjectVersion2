@@ -24,9 +24,9 @@ p = st.sidebar.slider("Phosphorus (P)", 15, 30, 20)
 k = st.sidebar.slider("Potassium (K)", 15, 30, 20)
 
 # Sidebar - Crop Filter
-crop_types = df["Crop type"].unique()
-selected_crop = st.sidebar.selectbox("🌱 Select Crop Type", crop_types)
-df = df[df["Crop type"] == selected_crop]
+crop_Types = df["Crop ype"].unique()
+selected_crop = st.sidebar.selectbox("🌱 Select Crop Type", crop_Types)
+df = df[df["Crop Type"] == selected_crop]
 
 # -----------------------------
 # Section 1: Data Overview
