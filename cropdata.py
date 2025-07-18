@@ -37,7 +37,7 @@ st.dataframe(df.head())
 
 st.subheader("Correlation Heatmap")
 fig, ax = plt.subplots()
-sns.heatmap(df.corr(numeric_only=False), annot=True, cmap="YlGnBu", ax=ax)
+sns.heatmap(df.corr(numeric_only=True), annot=True, cmap="YlGnBu", ax=ax)
 st.pyplot(fig)
 
 # -----------------------------
