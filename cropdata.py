@@ -45,7 +45,7 @@ st.pyplot(fig)
 st.header("🤖 Yield Predictor")
 
 X = df[["Rain Fall (mm)", "Fertilizer", "Temperatue", "Nitrogen (N)", "Phosphorus (P)", "Potassium (K)"]]
-y = df["Yeild (Q/acre)"]
+y = df["Yield (Q/acre)"]
 
 # Fit model
 model = LinearRegression()
