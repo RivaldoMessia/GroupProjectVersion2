@@ -8,7 +8,7 @@ import numpy as np
 
 # -----------------------------
 # Load data
-df = pd.read_excel("crop_data.xlsx")
+df = pd.read_excel("crop_data1.xlsx")
 
 # -----------------------------
 # Title
